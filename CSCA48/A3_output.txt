@@ -1,0 +1,112 @@
+Reading ingredient names. Available ingredient are:
+medium shrimp
+prepared horseradish
+turkey
+soymilk
+tomato juice
+fresh breadcrumbs
+artichoke hearts
+gruyere cheese
+sunflower seeds
+quinoa
+
+Test 1: RELATED K DISTANCE TESTS
+
+Test 1.1: Related to 'medium shrimp' k-dist, k=2
+quinoa
+gruyere cheese
+turkey
+artichoke hearts
+tomato juice
+medium shrimp
+prepared horseradish
+
+Test 1.2: Related to 'prepared horseradish' k-dist, k=3
+fresh breadcrumbs
+quinoa
+gruyere cheese
+turkey
+artichoke hearts
+tomato juice
+prepared horseradish
+medium shrimp
+
+Test 1.3: Related to 'turkey' k-dist, k=1
+artichoke hearts
+
+Test 1.4: Related to 'soymilk' k-dist, k=4
+gruyere cheese
+turkey
+medium shrimp
+artichoke hearts
+quinoa
+soymilk
+sunflower seeds
+
+Test 1.5: Related to 'tomato juice' k-dist, k=2
+gruyere cheese
+fresh breadcrumbs
+tomato juice
+medium shrimp
+prepared horseradish
+
+Test 1.6: Related to 'fresh breadcrumbs' k-dist, k=0
+
+Test 2: RELATED WITH RESTRICTIONS TESTS
+
+Test 2.1:  Related with restrictions, 'quinoa', 'tomato juice', k_source=3, k_dest=2
+soymilk
+sunflower seeds
+quinoa
+turkey
+artichoke hearts
+
+Test 2.2:  Related with restrictions, 'medium shrimp', 'prepared horseradish', k_source=2, k_dest=1
+quinoa
+gruyere cheese
+turkey
+artichoke hearts
+
+Test 2.3:  Related with restrictions, 'turkey', 'gruyere cheese', k_source=4, k_dest=3
+soymilk
+
+Test 2.4:  Related with restrictions, 'fresh breadcrumbs', 'artichoke hearts', k_source=2, k_dest=0
+gruyere cheese
+fresh breadcrumbs
+prepared horseradish
+tomato juice
+
+Test 2.5:  Related with restrictions, 'soymilk', 'sunflower seeds', k_source=3, k_dest=1
+artichoke hearts
+
+Test 2.6:  Related with restrictions, 'medium shrimp', 'medium shrimp', k_source=3, k_dest=3
+
+Test 3: SUBSTITUTE TESTS
+
+Test 3.1:  Substitute 'medium shrimp'
+gruyere cheese
+sunflower seeds
+fresh breadcrumbs
+turkey
+
+Test 3.2:  Substitute 'soymilk'
+medium shrimp
+sunflower seeds
+fresh breadcrumbs
+turkey
+artichoke hearts
+prepared horseradish
+tomato juice
+gruyere cheese
+quinoa
+
+Test 3.3:  Substitute 'turkey'
+medium shrimp
+sunflower seeds
+fresh breadcrumbs
+artichoke hearts
+prepared horseradish
+soymilk
+gruyere cheese
+quinoa
+tomato juice
