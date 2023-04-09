@@ -1,6 +1,6 @@
 <h1> Test Cases Bank</h1>
 
-Welcome to the UniCS-TestCases repository! This repository serves as a centralized collection of comprehensive test cases for Computer Science courses taken at the University of Toronto Scarborough. It is designed to aid in the testing and validation of code implementations for various computer science concepts, algorithms, and data structures commonly covered in university-level computer science classes.
+Welcome to the TestCasesBank repository! This repository serves as a centralized collection of comprehensive test cases for Computer Science courses taken at the University of Toronto Scarborough. It is designed to aid in the testing and validation of code implementations for various computer science concepts, algorithms, and data structures commonly covered in university-level computer science classes.
 
 Organization
 
